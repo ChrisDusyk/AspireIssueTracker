@@ -433,3 +433,5 @@ FodyWeavers.xsd
 
 # Python virtual environment files
 **/.venv/*
+
+**/certificates/*
