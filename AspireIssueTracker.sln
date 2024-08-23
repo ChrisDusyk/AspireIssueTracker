@@ -1,0 +1,82 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.AppHost", "AspireIssueTracker.AppHost\AspireIssueTracker.AppHost.csproj", "{DE63CB50-E1BB-4A9B-8381-1751E047200A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.ServiceDefaults", "AspireIssueTracker.ServiceDefaults\AspireIssueTracker.ServiceDefaults.csproj", "{D0DA4AEA-6429-40FF-A39E-C02F1A70D2D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{580981A2-2A0E-46C0-81D9-E0474CE7B0D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issues", "Issues", "{F18DF83D-3F25-4B62-AB5D-F61F617A51D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.Issues.Api", "AspireIssueTracker.Issues.Api\AspireIssueTracker.Issues.Api.csproj", "{D93C1C0D-0695-4B68-9C94-185CDD9AF311}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.Users.Api", "AspireIssueTracker.Users.Api\AspireIssueTracker.Users.Api.csproj", "{EF23BF1F-FAD5-47BD-8D58-2163AC8B56DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.Users.Data", "AspireIssueTracker.Users.Data\AspireIssueTracker.Users.Data.csproj", "{A3E37005-43A4-43A6-A13A-3A963504978D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.Issues.Data", "AspireIssueTracker.Issues.Data\AspireIssueTracker.Issues.Data.csproj", "{214A036B-CF10-4EF3-A2B1-8FFF4D99D28C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.MessageContracts", "AspireIssueTracker.MessageContracts\AspireIssueTracker.MessageContracts.csproj", "{7FF0F64E-B698-448C-9550-EC0609FE670D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireIssueTracker.Issues.UserEventListener", "AspireIssueTracker.Issues.UserEventListener\AspireIssueTracker.Issues.UserEventListener.csproj", "{0206AB9F-7058-4010-800A-659C50E0EF2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6221AC50-1BCA-42A1-A9EE-D39A43DFB003}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE63CB50-E1BB-4A9B-8381-1751E047200A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE63CB50-E1BB-4A9B-8381-1751E047200A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE63CB50-E1BB-4A9B-8381-1751E047200A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE63CB50-E1BB-4A9B-8381-1751E047200A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DA4AEA-6429-40FF-A39E-C02F1A70D2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DA4AEA-6429-40FF-A39E-C02F1A70D2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DA4AEA-6429-40FF-A39E-C02F1A70D2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DA4AEA-6429-40FF-A39E-C02F1A70D2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93C1C0D-0695-4B68-9C94-185CDD9AF311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93C1C0D-0695-4B68-9C94-185CDD9AF311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93C1C0D-0695-4B68-9C94-185CDD9AF311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93C1C0D-0695-4B68-9C94-185CDD9AF311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF23BF1F-FAD5-47BD-8D58-2163AC8B56DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF23BF1F-FAD5-47BD-8D58-2163AC8B56DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF23BF1F-FAD5-47BD-8D58-2163AC8B56DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF23BF1F-FAD5-47BD-8D58-2163AC8B56DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E37005-43A4-43A6-A13A-3A963504978D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E37005-43A4-43A6-A13A-3A963504978D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E37005-43A4-43A6-A13A-3A963504978D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E37005-43A4-43A6-A13A-3A963504978D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214A036B-CF10-4EF3-A2B1-8FFF4D99D28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214A036B-CF10-4EF3-A2B1-8FFF4D99D28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214A036B-CF10-4EF3-A2B1-8FFF4D99D28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214A036B-CF10-4EF3-A2B1-8FFF4D99D28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF0F64E-B698-448C-9550-EC0609FE670D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF0F64E-B698-448C-9550-EC0609FE670D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF0F64E-B698-448C-9550-EC0609FE670D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF0F64E-B698-448C-9550-EC0609FE670D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0206AB9F-7058-4010-800A-659C50E0EF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0206AB9F-7058-4010-800A-659C50E0EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0206AB9F-7058-4010-800A-659C50E0EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0206AB9F-7058-4010-800A-659C50E0EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D93C1C0D-0695-4B68-9C94-185CDD9AF311} = {F18DF83D-3F25-4B62-AB5D-F61F617A51D4}
+		{EF23BF1F-FAD5-47BD-8D58-2163AC8B56DE} = {580981A2-2A0E-46C0-81D9-E0474CE7B0D9}
+		{A3E37005-43A4-43A6-A13A-3A963504978D} = {580981A2-2A0E-46C0-81D9-E0474CE7B0D9}
+		{214A036B-CF10-4EF3-A2B1-8FFF4D99D28C} = {F18DF83D-3F25-4B62-AB5D-F61F617A51D4}
+		{0206AB9F-7058-4010-800A-659C50E0EF2E} = {F18DF83D-3F25-4B62-AB5D-F61F617A51D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAAC5305-9A46-4425-BC57-6095BE1D764F}
+	EndGlobalSection
+EndGlobal

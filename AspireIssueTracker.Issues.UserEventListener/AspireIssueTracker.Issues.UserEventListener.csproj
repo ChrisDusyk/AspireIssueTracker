@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AspireIssueTracker.Issues.UserEventListener-149a13a3-9bc0-4182-aa40-9b682d32f6db</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.MongoDB.Driver" Version="8.1.0" />
+    <PackageReference Include="Aspire.RabbitMQ.Client" Version="8.1.0" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireIssueTracker.Issues.Data\AspireIssueTracker.Issues.Data.csproj" />
+    <ProjectReference Include="..\AspireIssueTracker.MessageContracts\AspireIssueTracker.MessageContracts.csproj" />
+    <ProjectReference Include="..\AspireIssueTracker.ServiceDefaults\AspireIssueTracker.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>
